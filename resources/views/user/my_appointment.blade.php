@@ -145,7 +145,7 @@
 
             <tr style="background-color:black;">
                 @foreach ($appoint as $appoints)
-                    <td style="padding:10px;  color:white">{{ $appoints->name }}</td>
+                    <td style="padding:10px;  color:white">{{ $appoints->doctor }}</td>
                     <td style="padding:10px;  color:white">{{ $appoints->date }}</td>
                     <td style="padding:10px;  color:white">{{ $appoints->message }}</td>
                     <td style="padding:10px;  color:white">{{ $appoints->status }}</td>
